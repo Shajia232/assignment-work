@@ -1,0 +1,70 @@
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgba(78, 71, 255, 1);
+}
+li{
+    margin: 100px;
+}
+li a{
+    text-decoration: none; 
+}
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    max-width: 1440px;
+    height: 698px;
+} 
+button a{
+    color: white
+}
+.button1{
+    background-color:rgba(78, 71, 255, 1);
+    padding: 10%;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+}
+.title{
+    margin-top: 140px;
+    font-size: xx-large;
+    text-align: center;
+}
+.button2{
+    margin-left: 45%;
+    color: white;
+    background-color: rgba(78, 71, 255, 1);
+    width: 110px; 
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+}
+section{
+    display: flex;
+    margin: 150px;
+    justify-content: space-between;
+    gap: 50px;
+}
+img{
+    width: 325px;
+    height: 270px;
+    border-radius: 10px;
+}
+.button3{
+    color: white;
+    background-color: rgba(78, 71, 255, 1);
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+}
+.see{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.para{ 
+    font-size: larger;
+    color: darkgray;
+}
