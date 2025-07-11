@@ -130,3 +130,6 @@ button a{
     background-color: rgb(190, 209, 245); 
     margin-top: 0;
 }
+.last{
+    display: flex;
+}
