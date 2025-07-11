@@ -57,7 +57,7 @@ button a{
     margin-right: 200px;
 
 }
-img{
+.img1{
     width: 325px;
     height: 270px;
     border-radius: 10px;
@@ -89,13 +89,44 @@ img{
 .content{
     display: flex;
     justify-content:center;
-    gap: 70px;
+    gap: 100px;
 }
 .user{
     color:rgba(78, 71, 255, 1) ;
     font-size: xx-large;
-    font-weight: 700;
+    font-weight: 400;
+
 }
 .description{
-    color: darkgray;
+    color: darkgray; 
+    text-align: center; 
+}
+.three{
+    font-size: larger;
+    font-weight: 400;
+}
+.webflow{
+    text-align: center;
+    background-color: white;
+    width: 1140px;
+    height: 763px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.img2{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.button4{
+    margin:0 50% 0 45%;
+    color: white;
+    background-color: rgba(78, 71, 255, 1);
+    width: 120px; 
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+}
+.body{
+    background-color: rgb(190, 209, 245); 
+    margin-top: 0;
 }
