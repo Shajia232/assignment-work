@@ -7,13 +7,20 @@ ul{
     font-weight: 900;
     color: rgba(78, 71, 255, 1);
 }
+raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
+
 li{
     margin: 100px;
 }
 li a{
     text-decoration: none; 
 }
-header{
+.mainh{
     background-image: url(../Assets/Hero-bg.png);
     max-width: 1440px;
     height: 698px;
@@ -42,11 +49,13 @@ button a{
     border-radius: 6px;
     border: none;
 }
-section{
+.one{
     display: flex;
-    margin: 150px;
+    margin-top: 100px;
     justify-content: space-between;
-    gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+
 }
 img{
     width: 325px;
@@ -66,5 +75,27 @@ img{
 }
 .para{ 
     font-size: larger;
+    color: darkgray;
+}
+.number{
+    background-color: rgb(205, 204, 239);
+    width: 1140px;
+    height: 306px;
+    margin: 10%; 
+    border-radius: 10px;
+    padding-top: 20px;
+
+}
+.content{
+    display: flex;
+    justify-content:center;
+    gap: 70px;
+}
+.user{
+    color:rgba(78, 71, 255, 1) ;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.description{
     color: darkgray;
 }
